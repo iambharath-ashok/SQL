@@ -1,0 +1,258 @@
+# MySQL
+
+
+## What is DATA ?
+
+-	Data is a piece of information or fact, collection of facts
+
+
+## What is Database?
+
+-	Database is container, where all the data is stored
+
+
+## What is Database Management or DBMS
+
+-	DBMS is a collection of programs that is used to manage the collection of data is organized, structured
+-	DBMS is connect to DB, Manage, organize, manipulate the data in DB 
+	
+-	DBMS is collection of Programs that helps to:
+	
+	-	Access the data
+	-	Manipulate the data
+	-	Represent the data
+
+-	DBMS is a technology to store and retrieve the data at most efficiency along with security measures	
+	
+##	Types of DBMS
+
+-	Hierarchical DBMS 
+	-	Has parent-child representation of storing the data
+-	N/w DBMS
+	-	supports Many to many relationships
+-	Relational DBMS
+	-	Defines relationship b/w tables 
+	-	Supports only predefined data types
+-	Object Oriented DBMS
+	-	Supports its own data types
+	-	Data is stored in the form of Objects
+	-	Objects has its own attributes and method that define, what they have to do with data 
+	
+	
+
+##	SQL
+
+-	Structured Query Language is a programming language that used for managing relational databases
+-	With SQL, we can retrieve data from db, insert, update, delete, modify the data
+-	Relational DB's like Oracle, MySql, MS SQL uses SQL
+-	Queries and other SQL operations are written as statements
+	-	select, delete, update, alter, etc
+	
+	
+## MySQL
+
+-	Open Source RDBMS
+-	Multi user access
+-	Support multi storage engines
+-	Works on many platforms
+
+
+## Features of MySQL
+
+-	Transaction Support
+- 	Open source
+-	Ease of Management
+-	24 *7 supports
+-	High Availability
+-	Scalability
+-	Secure 
+
+
+## SQL Workbench
+
+
+-	Has 3 modules
+
+	-	DB designing and modelling modules
+	-	Database Development
+	-	Administration of Server
+	
+	
+##	SQL Command Categories
+
+-	DML 
+	-	SQL commands deals with manipulation of data stored in DB
+	-	Insert, Delete, Update, Select
+-	DDL
+	-	SQL Commands used to define the database schema
+	-	CREATE, TRUNCATE, DROP, ALTER, RENAME, COMMENT
+	
+-	DCL
+	-	GRANT, REVOKE	
+	
+-	TCL 
+	-	COMMIT, ROLLBACK, Savepoint,Set Transaction
+	
+	
+##	Entity Relationship  Diagram
+
+-	DB Modeling means Database designing
+-	Database can be design either using Entity Relationship Diagram or Normalize the Database
+-	ER - Entity-Relationship diagram is a diagram where we represent the real world objects as entities and relationship b/w them
+
+
+##	Different types of Keys
+
+-	Candidate Keys
+
+	-	Uniquely identifies the tuples
+	-	Must be Non-null and unique
+	-	There can be multiple Candidate keys in the tables
+	
+-	Super Keys
+
+	-	Similar to Candidate keys
+	
+-	Primary Keys
+
+	-	There can be only one Primary Key and rest of others are Candidate keys
+	-	Primay Key is combination of unique and non-null
+	
+-	Alternate Keys
+
+	-	Candidate keys other than primary keys are alternate keys
+	
+-	Foreign Keys
+	-	Used to reference the parent tables
+	
+## Normalization
+
+-	Normalization is a technique that organizing table in such a way that it reduces data dependency and redundancy
+-	1 NF, 2 NF, 3 NF , B NF
+-	1 NF
+	-	Each table cell should have single value, basically all the records must be unique
+	
+	
+-	2 NF 
+	-	Should be 1 NF and also should have a single column primary key
+	
+-	3 NF
+	-	Should be 2 NF and must not have any transitive functional dependencies
+	
+##	SQL Attributes Data Types
+
+-	Numeric
+	-	Int, small int, float, real, double, precision, decimal
+-	Character- string
+	-	char, varchar, clob
+-	Boolean
+	-	true, false, unknown
+-	Date and Time
+	-	date, time
+-	Timestamp
+-	Bit string
+	- bit
+	
+## Constraints
+
+-	Unique - make sure that all the values in the column are different
+-	Not Null - make sure that NULL value can't stored in the column
+-	Default - consists of set of default values, when no value is provided for a column
+-	Check - ensures that all the values in the column satisfies a specific condition
+-	Index	-	used to retrieve data quickly
+
+
+##	SQL Data Definition Commands
+
+
+
+-	ALTER TABLE
+-	DROP TABLE
+-	CREATE TABLE 
+-	CREATE INDEX
+-	ALTER INDEX
+-	DROP INDEX
+-	CREATE VIEW
+-	DROP VIEW
+-	ALTER VIEW
+-	CREATE SCHEMA 
+-	CREATE TABLE
+	-	NOT NULL
+	-	UNIQUE
+	-	PRIMARY KEY
+	-	DEFAULT 
+	- 	CHECK
+	-	FOREIGN KEY
+	
+## 	SQL Data Manipulation Commands
+
+-	UPDATE 
+-	COMMIT
+-	ROLLBACK
+-	DELETE
+-	INSERT
+-	SELECT
+	-	WHERE
+	-	GROUP BY
+	-	HAVING 
+	-	ORDER BY
+	
+##	Functions and Operators
+
+-	Logical Operators
+	-	And, Or, Not
+
+-	Comparision Operators
+	-	=, <,>, <=, =>, <>
+	
+-	Aggregate Fucntions
+
+	- Count, Min, Max, Sum, Avg,
+	
+-	Special Operators
+	-	Between, Is Null, Like, In,  Exists,  Distinct
+	
+
+
+
+
+
+
+-
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
